@@ -175,7 +175,7 @@ int main() {
     int PontosTuristicosH04;
 
 
-    printf("Já escolheu seu País?! Ótimo, então me diga:\n");
+    printf("Já sabe qual seu País?! Ótimo, então me diga:\n");
     scanf("%s", &Paises);
     printf("Digite o primeiro Estado: \n");
     scanf("%s", &EstadoA);
@@ -187,16 +187,85 @@ int main() {
     scanf("%f", &AreaA01);
     printf("Qual o Pib da Cidade escolhida?: \n");
     scanf("%f", &PibA01);
-    printf( "Quantos Pontos Turísticos a Cidade tem?: \n");
+    printf(  "Quantos Pontos Turísticos a Cidade tem?: \n");
     scanf("%d", &PontosTuristicosA01);
 
-    printf("Seu País é: %s\n", Paises);
-    printf("Você escolheu: %s\n", EstadoA);
-    printf("Cidade: %s\n", CidadeA01);
-    printf("Sua população é: %f\n", PopulacaoA01);
-    printf("Sua área é: %f\n", AreaA01);
-    printf("Possui um PIB de: %f\n", PibA01);
-    printf("Existe um total de: %d Pontos Turísticos.\n", PontosTuristicosA01);
+      printf("Seu País é: %s\n", Paises);
+      printf("Estado: %s\n", EstadoA);
+      printf("Cidade: %s\n", CidadeA01);
+      printf("Sua população é: %f\n", PopulacaoA01);
+      printf("Sua área é: %f\n", AreaA01);
+      printf("Possui um PIB de: %f\n", PibA01);
+      printf("Existe um total de: %d Pontos Turísticos.\n", PontosTuristicosA01);
+
+    printf("Sobre a próxima Cidade, me diga. Qual seria?:\n");
+    scanf("%s", &CidadeA02);
+    printf("Qual sua População?:\n");
+    scanf("%f", &PopulacaoA02);
+    printf("Diga qual sua Área total?:\n");
+    scanf("%f", &AreaA02);
+    printf("Agora digite seu Pib:\n");
+    scanf("%f", &PibA02);
+    printf(  "Quantos Pontos Turísticos ela possui?:\n");
+    scanf("%d", &PontosTuristicosA02);
+
+      printf("Seu País é: %s\n", Paises);
+      printf("Estado: %s\n", EstadoA);
+      printf("Cidade: %s\n", CidadeA02);
+      printf("Sua População é: %f\n", PopulacaoA02);
+      printf("Sua área é: %f\n", AreaA02);
+      printf("Possui um Pib de: %f\n", PibA02);
+      printf("Existe um total de: %d Pontos Turísticos.\n", PontosTuristicosA02);
+
+    printf("Me diga o nome da terceira Cidade:\n");
+    scanf("%s", &CidadeA03);
+    printf("Qual sua População?:\n");
+    scanf("%f", &PopulacaoA03);
+    printf("Diga qual sua Área total:\n");
+    scanf("%f", &AreaA03);
+    printf("Agora diga seu Pib:\n");
+    scanf("%f", &PibA03);
+    printf(  "Quantos Pontos Turísticos ela possui?:\n");
+    scanf("%d", &PontosTuristicosA03);
+
+      printf("Seu País é: %s\n", Paises);
+      printf("Estado: %s\n", EstadoA);
+      printf("Cidade: %s\n", CidadeA03);
+      printf("Sua População é: %f\n", PopulacaoA03);
+      printf("Sua área é: %f\n", AreaA03);
+      printf("Possui um Pib de: %f\n", PibA03);
+      printf("Existe um total de: %d Pontos Turísticos.\n", PontosTuristicosA03);
+
+    printf( "Qual a quarta Cidade?:\n");
+    scanf("%s", &CidadeA04);
+    printf( "Qual sua População?:\n");
+    scanf("%f", &PopulacaoA04);
+    printf( "Qual sua Área total?:\n");
+    scanf( "%f", &AreaA04);
+    printf( "Agora informe seu Pib:\n");
+    scanf( "%f", &PibA04);
+    printf(  "Quantos Pontos Turísticos ela possui?:\n");
+    scanf("%d", &PontosTuristicosA04);
+
+      printf("Seu País é: %s\n", Paises);
+      printf("Estado: %s\n", EstadoA);
+      printf("Cidade: %s\n", CidadeA04);
+      printf("Sua População é: %f\n", PopulacaoA04);
+      printf("Sua área é: %f\n", AreaA04);
+      printf("Possui um Pib de: %f\n", PibA04);
+      printf("Possui um total de %d Pontos Turísticos\n", PontosTuristicosA04);
+      
+
+
+
+
+
+
+
+
+
+
+
 
 
     
