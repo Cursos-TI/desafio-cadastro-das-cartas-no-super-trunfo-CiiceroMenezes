@@ -16,10 +16,8 @@ int main()
 {
     // Desafio aula 2 - comparando duas cartas
     struct Carta carta1, carta2;
-    //float densidadePopulacionalC1 = carta1.populacao / carta1.area;
-    
 
-    printf("### Super Trunfo em C ###\n"); // Apresentacao de inicio de game
+        printf("### Super Trunfo em C ###\n"); // Apresentacao de inicio de game
     // Receber dados das cartas
     printf("Cadastro da Primeira Carta:\n");
     printf("Digite o Estado:\n");
@@ -46,7 +44,9 @@ int main()
 
     // Inicio do calculo de Densidade Populacional e PIB per capita - Carta 1
     float densidadePopulacionalC1 = carta1.populacao / carta1.area;
-    printf("A Densidade Populacional é: %2.f hab/km²\n", densidadePopulacionalC1);
+    printf("A Densidade Populacional é: %.2f hab/km²\n", densidadePopulacionalC1);
+    float pibPerCapitaC1 = carta1.pib / carta1.populacao;
+    printf("O PIB per capita é: %.3f\n", pibPerCapitaC1);
 
     // Inicio do cadastro da Segunda Carta
 
@@ -72,4 +72,10 @@ int main()
     printf("Digite a quantidade de Pontos Turísticos:\n");
     scanf("%d", &carta2.pontosTuristicos);
     // Recebeu dados da Segunda Carta
+
+    // Inicio do calculo de Densidade Populacional e PIB per capita - Carta 1
+    float densidadePopulacionalC2 = carta2.populacao / carta2.area;
+    printf("A Densidade Populacional é: %.2f hab/km²\n", densidadePopulacionalC2);
+    float pibPerCapitaC2 = carta2.pib / carta2.populacao;
+    printf("O PIB per capita é: %.3f\n", pibPerCapitaC2);
 }
