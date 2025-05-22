@@ -17,7 +17,7 @@ int main()
     // Desafio aula 2 - comparando duas cartas
     struct Carta carta1, carta2;
 
-        printf("### Super Trunfo em C ###\n"); // Apresentacao de inicio de game
+    printf("### Super Trunfo em C ###\n"); // Apresentacao de inicio de game
     // Receber dados das cartas
     printf("Cadastro da Primeira Carta:\n");
     printf("Digite o Estado:\n");
@@ -78,4 +78,20 @@ int main()
     printf("A Densidade Populacional é: %.2f hab/km²\n", densidadePopulacionalC2);
     float pibPerCapitaC2 = carta2.pib / carta2.populacao;
     printf("O PIB per capita é: %.3f\n", pibPerCapitaC2);
+
+    // Mensagem para iniciar o resultado
+    printf("E o vencedor do atributo POPULAÇÃO É:\n");
+
+    // Comparando um Atributo pelo próprio código. O escolhido foi: POPULAÇÃO
+    printf("Carta 1 %s (%s): %d\n", carta1.cidade, carta1.codigo, carta1.populacao);
+    printf("Carta 2 %s (%s): %d\n", carta2.cidade, carta2.codigo, carta2.populacao);
+
+    if (carta1.populacao > carta2.populacao)
+    {
+        printf("A Carta 1 (%s) venceu!\n", carta1.estado);
+    }
+    else
+    {
+        printf("A Carta 2 (%s) venceu!\n", carta2.estado);
+    }
 }
