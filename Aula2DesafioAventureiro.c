@@ -204,7 +204,7 @@ int main()
 
         break;
     default:
-        printf("Opção inválida!\n");
+        printf("Opção inválida!\n"); // Segurança maior na escolha das opções acima
         break;
     }
 }
