@@ -97,7 +97,6 @@ int main()
     printf("O PIB per capita é: %.3f\n", pibPerCapitaC2);
 
     // Implementando o Switch para criar o Menu Interativo
-    // int escolhaJogador; // Variavel para salvar escolha do Player
 
     printf("Escolha agora qual atributo deseja comparar:\n");
     printf("1. Nome do País\n");
@@ -107,8 +106,8 @@ int main()
     printf("5. Número de Pontos Turísticos\n");
     printf("6. Densidade Demográfica\n");
     printf("Escolha: \n");
-    scanf("%d", &opcao);
 
+    scanf("%d", &opcao);
     switch (opcao)
     {
     case 1:
@@ -133,7 +132,7 @@ int main()
 
         break;
     case 3:
-        printf("País da carta 1 é: %s e o País da carta 2 é: %s", carta1.pais, carta2.pais);
+        printf("País da carta 1 é: %s e o País da carta 2 é: %s\n", carta1.pais, carta2.pais);
         printf("Você escolheu o atributo: Área.\n");
         printf("A Área da Carta 1 é: %f e a Área da Carta 2 é: %f\n", carta1.area, carta2.area);
         if (carta1.area > carta2.area)
@@ -151,9 +150,9 @@ int main()
 
         break;
     case 4:
-        printf("País da carta 1 é: %s e o País da carta 2 é: %s", carta1.pais, carta2.pais);
+        printf("País da carta 1 é: %s e o País da carta 2 é: %s\n", carta1.pais, carta2.pais);
         printf("Você escolheu o atributo: PIB.\n");
-        printf("O PIB da Carta 1 é: %f e o PIB da Carta 2 é: %f", carta1.pib, carta2.pib);
+        printf("O PIB da Carta 1 é: %f e o PIB da Carta 2 é: %f\n", carta1.pib, carta2.pib);
         if (carta1.pib > carta2.pib)
         {
             printf("A Carta 1 é a vencedora!\n");
@@ -169,7 +168,7 @@ int main()
 
         break;
     case 5:
-        printf("País da carta 1 é: %s e o País da carta 2 é: %s", carta1.pais, carta2.pais);
+        printf("País da carta 1 é: %s e o País da carta 2 é: %s\n", carta1.pais, carta2.pais);
         printf("Você escolheu o atributo: Pontos Turísticos.\n");
         printf("A Carta 1 possui %d Pontos Turísticos, ja a Carta 2 possui %d\n", carta1.pontosTuristicos, carta2.pontosTuristicos);
         if (carta1.pontosTuristicos > carta2.pontosTuristicos)
@@ -187,9 +186,9 @@ int main()
 
         break;
     case 6:
-        printf("País da carta 1 é: %s e o País da carta 2 é: %s", carta1.pais, carta2.pais);
+        printf("País da carta 1 é: %s e o País da carta 2 é: %s\n", carta1.pais, carta2.pais);
         printf("Você escolheu o atributo: Densidade Demográfica.\n");
-        printf("A Carta 1 possui a Densidade Demográfica de %f, já a Carta 2 possui a Densidade Demográfica de %f", densidadePopulacionalC1, densidadePopulacionalC2);
+        printf("A Carta 1 possui a Densidade Demográfica de %f, já a Carta 2 possui a Densidade Demográfica de %f\n", densidadePopulacionalC1, densidadePopulacionalC2);
         if (densidadePopulacionalC1 < densidadePopulacionalC2)
         {
             printf("A Carta 1 é a vencedora!\n");
