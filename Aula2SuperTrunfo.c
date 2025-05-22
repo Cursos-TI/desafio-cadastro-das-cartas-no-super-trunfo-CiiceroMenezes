@@ -40,4 +40,30 @@ int main()
 
     printf("Digite a quantidade de Pontos Turísticos:\n");
     scanf("%d", &carta1.pontosTuristicos);
+    
+    //Recebeu os dados da Primeira Carta
+    //Inicio do cadastro da Segunda Carta
+
+     printf("Cadastro da Segunda Carta:\n");
+    printf("Digite o Estado:\n");
+    scanf("%s", &carta2.estado);
+
+    printf("Digite o codigo da carta:\n");
+    scanf("%s", &carta2.codigo);
+
+    printf("Digite o nome da Cidade:\n");
+    scanf("%s", &carta2.cidade);
+
+    printf("Digite a População:\n");
+    scanf("%d", &carta2.populacao);
+
+    printf("Digite a Area:\n");
+    scanf("%f", &carta2.area);
+
+    printf("Digite o Pib:\n");
+    scanf("%f", &carta2.pib);
+
+    printf("Digite a quantidade de Pontos Turísticos:\n");
+    scanf("%d", &carta2.pontosTuristicos);
+    //Recebeu dados da Segunda Carta
 }
